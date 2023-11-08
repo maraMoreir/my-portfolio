@@ -6,7 +6,7 @@ export const Container = styled.div`
   background-image: url(${backgroundImage});
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; /* Isso fixa o background para que ele cubra toda a tela */
+  background-attachment: fixed; 
   z-index: 1;
   filter: saturate(100%) contrast(150%);
 
