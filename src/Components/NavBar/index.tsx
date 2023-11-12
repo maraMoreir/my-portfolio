@@ -7,10 +7,11 @@ export const NavBar:FC = () => {
         <Fragment>
             <Container>
                 <Text>
-                    <CustomLink to="#">Sobre</CustomLink> 
-                    <CustomLink to="#">Habilidades</CustomLink>
-                    <CustomLink to="#">Projetos</CustomLink>
-                    <CustomLink to="#">Contato</CustomLink> 
+                    <CustomLink to="/">Início</CustomLink> 
+                    <CustomLink to="/about">Sobre</CustomLink> 
+                    <CustomLink to="/skills">Habilidades</CustomLink>
+                    <CustomLink to="/projects">Projetos</CustomLink>
+                    <CustomLink to="/contact">Contato</CustomLink> 
                 </Text>
             </Container>
        

@@ -1,6 +1,7 @@
 import { FC } from "react"
 import { Container, Title, Description  } from "./style"
 
+
 export const About:FC = () => {
     return(
         <Container>
